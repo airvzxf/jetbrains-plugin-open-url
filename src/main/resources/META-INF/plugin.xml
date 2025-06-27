@@ -27,13 +27,4 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
-
-    <actions>
-        <action id="com.rovisoft.experiment.plugin.open.url.jetbrainpluginopenurl.MyAction"
-                class="com.rovisoft.experiment.plugin.open.url.jetbrainpluginopenurl.MyAction"
-                text="Hello World Action"
-                description="Says hello world">
-            <add-to-group group-id="ToolsMenu" anchor="last"/>
-        </action>
-    </actions>
 </idea-plugin>
