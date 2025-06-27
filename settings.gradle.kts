@@ -1,0 +1,1 @@
+rootProject.name = "jetbrain-plugin-open-url"
