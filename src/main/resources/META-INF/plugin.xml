@@ -25,6 +25,10 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <toolWindow
+                id="MyToolWindow"
+                anchor="right"
+                icon="/META-INF/icons/myToolWindowIcon.svg"
+                factoryClass="com.rovisoft.experiment.plugin.open.url.jetbrainpluginopenurl.MyToolWindowFactory"/>
     </extensions>
 </idea-plugin>
